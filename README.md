@@ -1,7 +1,1 @@
-# Car-Price-Prediction
-## Machine Learning and Deep Learning Assignment 2
-## Introduction
-Description
-Objective
-Data Used
-Results
+Car Price Classification ProjectProject DescriptionThis project applies supervised machine learning techniques to classify used cars as either high-priced or low-priced based on selected vehicle features.DatasetThe dataset contains used car details such as year, selling price, kilometers driven, fuel type, seller type, transmission type, and ownership history.MethodThe dataset was preprocessed by creating a binary target variable, transforming the year variable into car age, removing unnecessary columns, encoding categorical variables, and splitting the data into training and testing sets. Logistic Regression, Decision Tree, and K-Nearest Neighbors models were trained and compared using both unscaled and scaled feature sets.ResultsModel performance was evaluated using accuracy, confusion matrices, classification reports, and ROC-AUC curves. The results demonstrated the effect of feature scaling on model performance, particularly for Logistic Regression and K-Nearest Neighbors.How to Run the ProjectOpen the Jupyter Notebook file and run the cells sequentially from top to bottom. Ensure that the dataset file is saved in the correct folder or that the file path in the notebook is updated before running the code.AuthorDavid Otoc-Arthur
